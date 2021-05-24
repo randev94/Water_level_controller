@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968898910543",
+    "project_id": "water-level-control-32fc2",
+    "storage_bucket": "water-level-control-32fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968898910543:android:d5b72f1a6b695ecdac8d3a",
+        "android_client_info": {
+          "package_name": "com.ishan.waterlevelindicator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968898910543-6fconbc4iv7e1kgqbeirmq09c9bcgh26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHeRCgRRg4NreRCY4-jCqbTu8mouwWVJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968898910543-6fconbc4iv7e1kgqbeirmq09c9bcgh26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
