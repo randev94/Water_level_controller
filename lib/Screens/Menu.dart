@@ -15,6 +15,7 @@ class MenuScreen extends StatelessWidget {
   static const String idScreen = "menu";
   @override
   Widget build(BuildContext context) {
+      var dio = Dio();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.cyan[800],
@@ -161,10 +162,10 @@ class MenuScreen extends StatelessWidget {
                   borderRadius: new BorderRadius.circular(24.0),
                 ),
                 onPressed: () async {
-                  var dio = Dio();
+                  
                   var response = await dio.get(
-                      "https://mocki.io/v1/4b2d8166-48b7-43f8-b413-56b97766f81f");
-                  var level = response.data['level'];
+                      "http://awcproject.ddns.net:4500/waterusage?userid=tempuser&userpw=tempuser123");
+                  var level = response.data['monthly'];
                   Navigator.pushNamedAndRemoveUntil(
                       context, WaterLevel.idScreen, (route) => false,
                       arguments: level);

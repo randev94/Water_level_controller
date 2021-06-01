@@ -22,10 +22,13 @@ class WaterLevel extends StatelessWidget {
               style: TextStyle(fontSize: 24.0, fontFamily: "Brand Bold"),
               textAlign: TextAlign.center,
             ),
-            Text(
+            Card(
+              elevation: 10,
+              child:SizedBox(height: 100,width: 100,child: Padding( padding: EdgeInsets.all(30),child: Text(
               args.toString(),
-              style: TextStyle(fontSize: 24.0, fontFamily: "Brand Bold"),
+              style: TextStyle(fontSize: 20.0, fontFamily: "Brand Bold"),
               textAlign: TextAlign.center,
+            ),),)
             ),
             SizedBox(
               height: 500.0,

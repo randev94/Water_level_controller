@@ -85,7 +85,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       onPressed: ()
                       {
-                        if(!emailTextEditingController.text.contains("@"))
+                        /*if(!emailTextEditingController.text.contains("@"))
                         {
                           displayToastMessage("Email is not Valid", context);
                         }
@@ -94,11 +94,11 @@ class LoginScreen extends StatelessWidget {
                           displayToastMessage("Please provide Password", context);
                         }
                         else
-                        {
-                          loginAndAuthenticateUser(context);
+                        {*/
+                          //loginAndAuthenticateUser(context);
                           Navigator.pushNamedAndRemoveUntil(context, MenuScreen.idScreen, (route) => false);
 
-                        }
+                        //}
                       },
                     ),
 
